@@ -2,7 +2,7 @@ import randomColor from "randomcolor"
 
 
 const Header = () => {
-    const color = "white" // Change the color from "white" to randomColor(), then apply the action to the body component's color button.
+    const color = "black" // Change the color from "black" to randomColor(), then apply the action to the body component's color button.
     return (
         <div className='flex justify-between items-center bg-slate-300 h-[15%] border-4 border-black'>
             <a href={"/"} className=' font-bold text-3xl hidden md:block ml-3 '>
@@ -11,7 +11,7 @@ const Header = () => {
             <a href={"/"} className=' font-bold text-xl xs:block md:hidden ml-2'>
                 Logo(Mobile)
             </a>
-            <p style={{backgroundColor : color}} className={`text-base md:text-xl font-bold mr-3  border-2 border-black p-2`} >Header - Count is 0</p>
+            <p style={{color : color}} className={`text-base md:text-xl font-bold mr-3  border-2 border-black p-2`} >Header - Count is 0</p>
         </div>
     )
 }
