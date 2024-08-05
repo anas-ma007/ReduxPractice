@@ -9,5 +9,6 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 
 Created by : Anas Chelakkara
+Portfolio : https://www.anasdev.website/
 Git : https://github.com/anas-ma007
-Portfolio : anasdev.website
+LinkedIn : https://www.linkedin.com/in/anas-ma/
